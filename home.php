@@ -1,5 +1,6 @@
 <?php
 session_start();
+//check whether session is set or not
 if($_SESSION['user_name'])
 {
 ?><!DOCTYPE html>
